@@ -33,6 +33,6 @@ println(captcha.picture.absolutePath)
 ```java
 CaptchaClient captchaClient = new CaptchaClient()
 Captcha captcha = captchaClient.generateCaptcha(File(""))
-System.out.println(captcha.getSolution)
+System.out.println(captcha.getSolution())
 System.out.println(captcha.getPicture().getAbsolutePath())
 ```
